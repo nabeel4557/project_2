@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    width: 100%px;
+    height: 80px;
+
+}
+header div.container {
+
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 40px;
+
+}
+header div.container div.left {
+    align-items: center;
+
+}
+header div.container div.left div.imagecontainer {
+    display: flex;
+
+}
+header div.container div.left div.imagecontainer a {
+    display: flex;
+    width: 24px;
+    height: 24px;
+
+}
+header div.container div.left div.imagecontainer div.image {
+    display: inline-block;
+
+}
+header div.container div.left div.imagecontainer div.image h1 {
+
+}
+header div.container div.left div.imagecontainer div.image h1 a {
+
+}
+header div.container div.left div.imagecontainer div.image h1 a img {
+    padding-right: 34px;
+    display: inline-block;
+    width: 150px;
+    height: 24px;
+
+}
+header div.container div.middle {
+    align-items: center; 
+    margin-left: 32px;
+    margin-right: 32px;   
+
+
+}
+header div.container div.middle div.search {
+    display: flex;
+    align-items: center;
+    border: 2px solid #fff;
+    background-color: whitesmoke;
+    
+
+}
+header div.container div.middle div.search div.left {
+    align-items: center;
+
+}
+header div.container div.middle div.search div.left img {
+    transform: scaleX(-1);
+    margin-right: 10px;
+    width: 15px;
+}
+header div.container div.middle div.search div.right {
+    align-items: center;
+    
+
+}
+header div.container div.middle div.search div.right input {
+    width: 900px;
+    height: 50px;
+    font-size: 15px;
+    color: #000;
+    /* padding-right: 48px; */
+    border-radius: 8px;
+    border: 0px;
+    background-color: whitesmoke;
+
+}
+header div.container div.right {
+    font-size: 17px;
+    align-items: center;
+
+}
+header div.container div.right ul {
+    display: flex;
+    list-style-type: none;
+
+}
+header div.container div.right ul li {
+
+}
+header div.container div.right ul li a.button1 {
+    text-decoration: none;
+    margin: 0px 22px;
+    padding: 1px 6px;
+    color: #000;
+    font-weight: 700px;
+
+}
+header div.container div.right ul li a.button2 {
+    text-decoration: none;
+    padding: 8px 16px;
+    color: #fff;
+    background-color: #108910;
+    border-radius: 20px;
+    font-weight: 700px;
+
+}
+
+/* section header end''' */
+
+
+
+section#main {
+    width: 100%;
+    height: 200px;
+    background-color: #deedd6;
+    margin-bottom: 16px;
+
+}
+section#main div.groceries {
+    display: flex;
+
+}
+section#main div.groceries div.left {
+    display: flex;
+    width: 1000px;
+    padding: 24px 0 24px 144px;;
+
+}
+section#main div.groceries div.left span {
+
+}
+section#main div.groceries div.left span select {
+
+}
+section#main div.groceries div.left span select option {
+
+}
+section#main div.groceries div.left div.content {
+
+}
+section#main div.groceries div.left div.content h1 {
+    font-size: 41px;
+    width: 450px;
+    line-height: 40px;
+
+}
+section#main div.groceries div.left div.content p {
+    font-size: 14px;
+    margin-top: 10px;
+
+}
+section#main div.groceries div.right {
+    background-image: url(images/image.png);
+    height: 200px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-color: #fff;
+    background-position: right;
+
+}
+/* section main end''' */
+
+
+section#store {
+    display: flex;
+    justify-content: center;
+
+}
+section.wrapper {
+    width: 75%;
+
+}
+section#store section.wrapper div.markets {
+
+}
+section#store section.wrapper div.markets div.top {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px;
+
+}
+section#store section.wrapper div.markets div.top h2 {
+    font-size: 35px;
+}
+section#store section.wrapper div.markets div.top h2 a {
+    color: #108910;
+    text-decoration: none;
+}
+section#store section.wrapper div.markets div.top h2 a:hover {
+    text-decoration: underline;
+}
+section#store section.wrapper div.markets div.bottom {
+
+}
+section#store section.wrapper div.markets div.bottom ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 25px;
+    
+
+}
+section#store section.wrapper div.markets div.bottom ul li {
+    /* width: 200px; */
+    list-style-type: none;
+    box-shadow: 3px 3px 3px 3px #d2d5d9;
+    border-radius: 5px;
+
+}
+section#store section.wrapper div.markets div.bottom ul li a {
+    display: flex;
+    text-decoration: none;
+    width: 370px;
+    
+
+}
+section#store section.wrapper div.markets div.bottom ul li a div {
+
+}
+section#store section.wrapper div.markets div.bottom ul li a div img {
+    width: 61px;
+    height: 61px;
+    display: block;
+
+}
+section#store section.wrapper div.markets div.bottom ul li a div h5 {
+    font-size: 22px;
+    color: #000;
+
+}
+section#store section.wrapper div.markets div.bottom ul li a div p {
+    color: #108910;
+    font-weight: 700;
+
+}
+section#store section.wrapper div.markets div.bottom ul li a div span {
+    display: inline-block;
+    color: #000;
+    border: 1px solid #000;
+
+}
+.button-show-all {
+    text-decoration: none;
+    margin-top: 30px;
+    display: block;
+    font-size: 24px;
+    color: #108910;
+    text-align: center;
+}
+
+
+
+
