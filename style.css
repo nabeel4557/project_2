@@ -393,6 +393,7 @@ section#order_delivery section.wrapper div.delivery div.bottom ul li p {
 
 
 section#online_grocery {
+    padding: 32px;
     margin-top: 150px;
     width: 100%;
     display: flex;
@@ -414,7 +415,7 @@ section#online_grocery section.wrapper div.market h4 {
     max-width: 500px;
     font-size: 35px;
     color: #343538;
-
+    margin-bottom: 35px;
 }
 section#online_grocery section.wrapper div.market div.image {
 
@@ -422,8 +423,8 @@ section#online_grocery section.wrapper div.market div.image {
 section#online_grocery section.wrapper div.market div.image img {
     display: inline-block;
     margin-bottom: 16px;
+    overflow: hidden;
     border-radius: 8px;
-    padding-top: 35px;
     width: 100%;
 
 }
@@ -455,6 +456,52 @@ section#online_grocery section.wrapper div.market ul li p {
 
 }
 
+/* section online end''' */
+
+
+section#questions {
+    max-width: 950px;
+    margin: 0 auto;
+    /* display: flex; */
+    /* justify-content: center; */
+
+}
+section#questions div.question {
+    width: 100%;
+    justify-content: center;
+
+}
+section#questions div.question h4 {
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 24px;
+
+}
+section#questions div.question ul {
+}
+section#questions div.question ul li {
+    justify-content: space-between;
+    display: flex;
+    border-bottom: 1px solid #E8E9EB;
+
+
+}
+section#questions div.question ul li p {
+    font-size: 32px;
+    padding: 24px 0px;
+
+}
+section#questions div.question ul li a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: #000;
+}
+section#questions div.question ul li a .fa-plus {
+    font-size: 20px;
+}
+/* section#idquestions end''' */
 
 
 
