@@ -392,6 +392,74 @@ section#order_delivery section.wrapper div.delivery div.bottom ul li p {
 /* delivery section end''' */
 
 
+section#online_grocery {
+    margin-top: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+section#online_grocery section.wrapper {
+
+}
+section#online_grocery section.wrapper div.market {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+
+}
+section#online_grocery section.wrapper div.market h4 {
+    text-align: center;
+    max-width: 500px;
+    font-size: 35px;
+    color: #343538;
+
+}
+section#online_grocery section.wrapper div.market div.image {
+
+}
+section#online_grocery section.wrapper div.market div.image img {
+    display: inline-block;
+    margin-bottom: 16px;
+    border-radius: 8px;
+    padding-top: 35px;
+    width: 100%;
+
+}
+section#online_grocery section.wrapper div.market ul {
+    display: flex;
+    justify-content: space-between;
+    height: 236px;
+    width: 100%;
+
+}
+section#online_grocery section.wrapper div.market ul li {
+    padding: 32px;
+    list-style-type: none;
+    background-color: #F6F7F8;
+    width: 24%;
+  
+
+}
+section#online_grocery section.wrapper div.market ul li h5 {
+    font-size: 35px;
+    font-weight: 600;
+
+}
+section#online_grocery section.wrapper div.market ul li p {
+    color: #343538;
+    font-size: 27px;
+    line-height: 28px;
+    font-weight: 500;
+
+}
+
+
+
+
+
+
 
 
 
