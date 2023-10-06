@@ -214,7 +214,6 @@ section#store section.wrapper div.markets div.bottom ul {
 
 }
 section#store section.wrapper div.markets div.bottom ul li {
-    /* width: 200px; */
     list-style-type: none;
     box-shadow: 3px 3px 3px 3px #d2d5d9;
     border-radius: 5px;
@@ -252,7 +251,7 @@ section#store section.wrapper div.markets div.bottom ul li a div span {
     border: 1px solid #000;
 
 }
-.button-show-all {
+section#store section.wrapper div.markets div.bottom a.button {
     text-decoration: none;
     margin-top: 30px;
     display: block;
@@ -260,6 +259,76 @@ section#store section.wrapper div.markets div.bottom ul li a div span {
     color: #108910;
     text-align: center;
 }
+section#store section.wrapper div.markets div.bottom a.button:hover {
+    text-decoration: underline;
+
+}
+
+/* section#store end''' */
+
+
+section#qr_code {
+    width: 100%;
+    height: 100px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+
+}
+section#qr_code section.wrapper {
+    background-color: #B1E5D5;
+    border-radius: 10px;
+    box-shadow: 3px 2px 3px 2px #d2d5d9;
+
+ 
+}
+section#qr_code section.wrapper div.scan {
+    display: flex;
+    justify-content: space-between;
+
+}
+section#qr_code section.wrapper div.scan div.left {
+
+}
+section#qr_code section.wrapper div.scan div.left img {
+    display: inline-block;
+    width: 267px;
+    height: 100px;
+
+}
+section#qr_code section.wrapper div.scan div.middle {
+    padding-top: 30px;
+    align-items: center;
+
+}
+section#qr_code section.wrapper div.scan div.middle h2 {
+    font-weight: 700;
+    
+
+}
+section#qr_code section.wrapper div.scan div.middle p {
+    font-weight: 400;
+
+}
+section#qr_code section.wrapper div.scan div.right {
+
+}
+section#qr_code section.wrapper div.scan div.right img {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+
+}
+
+/* section qr code end""" */
+
+sec
+
+
+
+
+
 
 
 
