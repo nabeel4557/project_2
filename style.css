@@ -469,8 +469,7 @@ section#online_grocery section.wrapper div.market ul li p {
 section#questions {
     max-width: 950px;
     margin: 0 auto;
-    /* display: flex; */
-    /* justify-content: center; */
+    padding: 32px 32px 60px;
 
 }
 section#questions div.question {
@@ -510,6 +509,94 @@ section#questions div.question ul li a .fa-plus {
 }
 /* section#idquestions end''' */
 
+
+footer{
+    
+
+}
+footer div.top_section {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    border-bottom: 1px solid #E8E9EB;
+    border-top: 1px solid #E8E9EB;
+
+}
+footer div.top_section div.left {
+
+}
+footer div.top_section div.left div.top {
+    display: flex;
+    padding: 20px 0 13px 6px;
+
+}
+footer div.top_section div.left div.top span {
+
+}
+footer div.top_section div.left div.top span img {
+    width: 33px;
+    margin-right: 10px;
+
+}
+footer div.top_section div.left div.top h3 {
+
+}
+footer div.top_section div.left div.bottom {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+    align-items: center;
+
+}
+
+footer div.top_section div.left div.bottom span {
+
+}
+footer div.top_section div.left div.bottom span img {
+    width: 20px;
+}
+footer div.top_section div.left div.bottom a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 8px;
+
+}
+
+footer div.top_section div.right {
+    display: flex;
+
+}
+footer div.top_section div.right div.item {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+
+
+
+}
+footer div.top_section div.right div.item ul {
+
+}
+footer div.top_section div.right div.item ul li {
+    list-style-type: none;
+    text-decoration: none;
+
+
+}
+footer div.top_section div.right div.item ul li h5 {
+    font-size: 20px;
+    padding: 20px 0 13px
+
+}
+footer div.top_section div.right div.item ul li a {
+    font-size: 17px;
+    color: #343538;
+    text-decoration: none;
+    line-height: 40px;
+
+}
 
 
 
