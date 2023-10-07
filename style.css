@@ -17,6 +17,7 @@ header div.container {
 
 }
 header div.container div.left {
+    margin-right: 100px;
     align-items: center;
 
 }
@@ -30,6 +31,10 @@ header div.container div.left div.imagecontainer a {
     height: 24px;
 
 }
+header div.container div.left div.imagecontainer img {
+    padding-right: 10px;
+}
+
 header div.container div.left div.imagecontainer div.image {
     display: inline-block;
 
@@ -41,10 +46,12 @@ header div.container div.left div.imagecontainer div.image h1 a {
 
 }
 header div.container div.left div.imagecontainer div.image h1 a img {
+
     padding-right: 34px;
     display: inline-block;
-    width: 150px;
-    height: 24px;
+    padding-left: 10px;
+    width: 180px;
+    
 
 }
 header div.container div.middle {
@@ -502,6 +509,9 @@ section#questions div.question ul li a .fa-plus {
     font-size: 20px;
 }
 /* section#idquestions end''' */
+
+
+
 
 
 
