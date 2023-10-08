@@ -684,6 +684,42 @@ div.middle_section div.right div.item ul li a {
 
 }
 
+div.slider {
+    width: 1224px;
+    display: flex;
+    /* justify-content: center; */
+    gap: 100px;
+    padding: 20px 80px 48px 39px;
+    margin-left: 40px;
+    border-bottom: 1px solid #E8E9EB;
+
+}
+div.slider div.slider-left {
+    width: 368px;
+
+}
+div.slider div.slider-left h3 {
+    font-size: 20px;
+    padding-left: 50px;
+    
+}
+div.slider div.slider-right {
+    display: flex;
+    font-size: 17px;
+
+
+}
+div.slider div.slider-right label {
+    padding-right: 50px;
+    justify-items: start;
+
+
+}
+div.slider div.slider-right input {
+
+}
+
+
 
 
 
