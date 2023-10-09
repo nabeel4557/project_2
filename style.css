@@ -6,13 +6,14 @@
 header {
     width: 100%;
     height: 80px;
-    padding: 0px 30px;
+    padding: 0px 30px;  
+    /* position: fixed; */
+    /* background-color: #fff; */
 
 }
 header div.container {
     width: 100%;
     height: 100%;
-
     align-items: center;
     display: flex;
     justify-content: space-between;
@@ -21,12 +22,9 @@ header div.container {
 }
 header div.container div.left {
     width: 25%;
-    /* margin-right: 100px;
-    align-items: center; */
 
 }
 header div.container div.left div.imagecontainer {
-    /* justify-content: center; */
     align-items: center;
     width: 100%;
     display: flex;
@@ -44,7 +42,7 @@ header div.container div.left div.imagecontainer img {
 }
 
 header div.container div.left div.imagecontainer div.image {
-    margin-left: 20px;
+    margin-left: 15px;
 
 }
 header div.container div.left div.imagecontainer div.image h1 {
@@ -58,7 +56,6 @@ header div.container div.left div.imagecontainer div.image h1 a {
 }
 header div.container div.left div.imagecontainer div.image h1 a img {
     display: block;
-
     padding-right: 34px;
     display: inline-block;
     padding-left: 10px;
@@ -72,8 +69,6 @@ header div.container div.middle {
     height: 70%;
     border-radius: 10px;
     padding: 0px 15px;
-    /* margin-left: 32px;
-    margin-right: 32px;    */
 
 
 }
@@ -82,7 +77,6 @@ header div.container div.middle div.search {
     height: 100%;
     display: flex;
     align-items: center;
-    /* background-color: whitesmoke; */
     
 
 }
@@ -95,11 +89,9 @@ header div.container div.middle div.search div.left img {
     display: block;
     width: 60%;
     transform: scaleX(-1);
-    /* margin-right: 10px; */
 }
 header div.container div.middle div.search div.right {
     width: 95%;
-    /* align-items: center; */
     
 
 }
@@ -115,7 +107,7 @@ header div.container div.middle div.search div.right input {
 }
 header div.container div.right {
     width: 20%;
-    font-size: 17px;
+    font-size: 18px;
     align-items: center;
 
 }
@@ -133,12 +125,10 @@ header div.container div.right ul li {
 header div.container div.right ul li a.button1 {
     display: block;
     text-decoration: none;
-    /* margin: 0px 22px; */
-    /* padding: 1px 6px; */
     color: #000;
     font-weight: 500;
     font-size: 20px;
-    margin-right: 20px;
+    margin-right: 30px;
     font-family: arial;
 
 
@@ -173,14 +163,11 @@ section#main div.groceries {
 section#main div.groceries div.left {
     width: 60%;
     display: flex;
-    /* width: 1000px;
-    padding: 24px 0 24px 144px;; */
 
 }
 section#main div.groceries div.left span {
     display: block;
     margin-right: 50px;
-    /* display: flex; */
     padding-top: 40px;
 
 }
@@ -196,7 +183,6 @@ section#main div.groceries div.left span select option {
 
 }
 section#main div.groceries div.left div.content {
-    /* align-items: center; */
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -421,6 +407,8 @@ section#order_delivery section.wrapper div.delivery div.bottom {
 section#order_delivery section.wrapper div.delivery div.bottom ul {
     display: flex;
     justify-content: space-between;
+    list-style-type: none;
+
 
 
 }
@@ -428,7 +416,6 @@ section#order_delivery section.wrapper div.delivery div.bottom ul li {
     height: 450px;
     background-color: #F6F7F8;
     width: 32%;
-    list-style-type: none;
     border-radius: 10px;
 
 
@@ -500,13 +487,13 @@ section#online_grocery section.wrapper div.market div.image img {
 section#online_grocery section.wrapper div.market ul {
     display: flex;
     justify-content: space-between;
+    list-style-type: none;
     height: 236px;
     width: 100%;
 
 }
 section#online_grocery section.wrapper div.market ul li {
     padding: 32px;
-    list-style-type: none;
     background-color: #F6F7F8;
     width: 24%;
   
@@ -841,12 +828,14 @@ div.bottom_section div.bottom {
 
 }
 div.bottom_section div.bottom p {
-    padding-left: 100px;
+    padding-left: 120px;
     font-size: 14px;
 
 }
 div.bottom_section div.bottom p a {
     /* text-decoration: none; */
+    font-weight: bold;
+    color: #636363;
 }
 
 
