@@ -96,6 +96,7 @@ header div.container div.middle div.search div.right {
 
 }
 header div.container div.middle div.search div.right input {
+    background-color: transparent;
     width: 100%;
     font-size: 18px;
     color: #000;
@@ -150,6 +151,7 @@ header div.container div.right ul li a.button2 {
 
 
 section#main {
+    padding-left: 50px;
     width: 100%;
     height: 200px;
     background-color: #deedd6;
@@ -234,6 +236,7 @@ section#store section.wrapper div.markets div.top h2 {
     font-size: 35px;
 }
 section#store section.wrapper div.markets div.top h2 a {
+    display: inline-block;
     color: #108910;
     text-decoration: none;
 }
@@ -516,14 +519,14 @@ section#online_grocery section.wrapper div.market ul li p {
 
 
 section#questions {
-    max-width: 950px;
+    max-width: 65%;
     margin: 0 auto;
     padding: 32px 32px 60px;
 
 }
 section#questions div.question {
     width: 100%;
-    justify-content: center;
+    /* justify-content: center; */
 
 }
 section#questions div.question h4 {
@@ -627,10 +630,11 @@ footer div.top_section div.right div.item {
 
 }
 footer div.top_section div.right div.item ul {
+    list-style-type: none;
+
 
 }
 footer div.top_section div.right div.item ul li {
-    list-style-type: none;
     text-decoration: none;
 
 
@@ -641,6 +645,7 @@ footer div.top_section div.right div.item ul li h5 {
 
 }
 footer div.top_section div.right div.item ul li a {
+    display: inline-block;
     font-size: 17px;
     color: #343538;
     text-decoration: none;
@@ -671,6 +676,7 @@ div.middle_section div.left div.top span {
 
 }
 div.middle_section div.left div.top span img {
+    display: inline-block;
     width: 33px;
     margin-right: 10px;
 
@@ -690,11 +696,13 @@ div.middle_section div.left div.bottom span {
 
 }
 div.middle_section div.left div.bottom span img {
+    display: inline-block;
     width: 20px;
 
 
 }
 div.middle_section div.left div.bottom a {
+    display: inline-block;
     text-decoration: none;
     font-size: 18px;
     font-weight: 500;
@@ -714,10 +722,11 @@ div.middle_section div.right div.item {
 
 }
 div.middle_section div.right div.item ul {
+    list-style-type: none;
+
 
 }
 div.middle_section div.right div.item ul li {
-    list-style-type: none;
 
 }
 div.middle_section div.right div.item ul li h5 {
@@ -726,6 +735,7 @@ div.middle_section div.right div.item ul li h5 {
 
 }
 div.middle_section div.right div.item ul li a {
+    display: inline-block;
     font-size: 17px;
     color: #343538;
     text-decoration: none;
@@ -810,17 +820,20 @@ div.bottom_section div.top div.right div.icons ul {
     padding: 20px 0 13px 39px;
     display: flex;
     gap: 20px;
+    list-style-type: none;
+
 
 }
 div.bottom_section div.top div.right div.icons ul li {
-    list-style-type: none;
    
 
 }
 div.bottom_section div.top div.right div.icons ul li a {
+    display: inline-block;
 
 }
 div.bottom_section div.top div.right div.icons ul li a img {
+    display: inline-block;
     width: 20px;
 
 }
@@ -833,10 +846,12 @@ div.bottom_section div.bottom p {
 
 }
 div.bottom_section div.bottom p a {
+    display: inline-block;
     /* text-decoration: none; */
     font-weight: bold;
     color: #636363;
 }
+@media all and (max-width)
 
 
 
