@@ -7,7 +7,7 @@ header {
     width: 100%;
     height: 80px;
     padding: 0px 30px;  
-    /* position: fixed; */
+    /* position: fixed;  */
     /* background-color: #fff; */
 
 }
@@ -26,7 +26,6 @@ header div.container div.left {
 }
 header div.container div.left div.imagecontainer {
     align-items: center;
-    width: 100%;
     display: flex;
 
 }
@@ -36,7 +35,7 @@ header div.container div.left div.imagecontainer a {
 
 }
 header div.container div.left div.imagecontainer img {
-    width: 100%;
+    width: 41px;
     display: block;
     padding-right: 10px;
 }
@@ -563,85 +562,100 @@ section#questions div.question ul li a .fa-plus {
 
 
 footer{
-    max-width: 1376px;
-    margin: 0 auto;
+   
 
 }
 footer div.top_section {
     display: flex;
-    justify-content: center;
-    gap: 100px;
+    padding: 30px 50px;
+    /* justify-content: center; */
+    /* gap: 100px; */
     border-bottom: 1px solid #E8E9EB;
     border-top: 1px solid #E8E9EB;
 
 }
 footer div.top_section div.left {
+    width: 30%;
 
 }
 footer div.top_section div.left div.top {
     display: flex;
-    padding: 20px 0 13px 6px;
+    align-items: center;
+    
 
 }
 footer div.top_section div.left div.top span {
 
+    display: block;
+    margin-right: 10px;
+
+    width: 33px;
+
 }
 footer div.top_section div.left div.top span img {
-    width: 33px;
-    margin-right: 10px;
+    width: 100%;
+    display: block;
 
 }
 footer div.top_section div.left div.top h3 {
 
 }
 footer div.top_section div.left div.bottom {
-    width: 200px;
     display: flex;
-    justify-content: space-between;
-    padding-left: 40px;
     align-items: center;
+    margin-top: 25px;
 
 }
 
 footer div.top_section div.left div.bottom span {
+    margin: 0px 20px 0 30px;
+
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 footer div.top_section div.left div.bottom span img {
+    display: block;
     width: 20px;
 }
 footer div.top_section div.left div.bottom a {
+    display: block;
     text-decoration: none;
     font-size: 18px;
     font-weight: 500;
-    padding-bottom: 8px;
+    /* padding-bottom: 8px; */
 
 }
 
 footer div.top_section div.right {
+    display: flex;
+    width: 70%;
     /* display: flex; */
 
 }
 footer div.top_section div.right div.item {
     display: flex;
-    justify-content: space-between;
-    gap: 40px;
+    width: 25%;
 
 
 
 }
 footer div.top_section div.right div.item ul {
-    list-style-type: none;
+    list-style : none;
 
 
 }
 footer div.top_section div.right div.item ul li {
-    text-decoration: none;
+    width: 80%;
+    margin-bottom: 20px;
+    
 
 
 }
 footer div.top_section div.right div.item ul li h5 {
     font-size: 20px;
-    padding: 20px 0 13px
 
 }
 footer div.top_section div.right div.item ul li a {
@@ -649,7 +663,6 @@ footer div.top_section div.right div.item ul li a {
     font-size: 17px;
     color: #343538;
     text-decoration: none;
-    line-height: 40px;
 
 }
 /* footer top end""" */
@@ -657,47 +670,48 @@ footer div.top_section div.right div.item ul li a {
 
 div.middle_section {
     display: flex;
-    justify-content: center;
-    gap: 100px;
+    padding: 30px 50px;
+
     border-bottom: 1px solid #E8E9EB;
 
 }
 div.middle_section div.left {
-    width: 276px;
+    width: 30%;
 
 }
 div.middle_section div.left div.top {
     display: flex;
     align-items: center;
-    padding: 20px 0 13px 6px;
 
 }
 div.middle_section div.left div.top span {
+    display: block;
+    margin-right: 10px;
+    width: 33px;
 
 }
 div.middle_section div.left div.top span img {
-    display: inline-block;
-    width: 33px;
-    margin-right: 10px;
+    width: 100%;
+    display: block;
 
 }
 div.middle_section div.left div.top h3 {
     font-size: 20px;
 }
 div.middle_section div.left div.bottom {
-    width: 200px;
     display: flex;
-    justify-content: space-between;
-    padding-left: 40px;
     align-items: center;
+    margin-top: 25px;
 
 }
 div.middle_section div.left div.bottom span {
+    margin: 0px 20px 0 30px;
+
 
 }
 div.middle_section div.left div.bottom span img {
     display: inline-block;
-    width: 20px;
+    max-width: 20px;
 
 
 }
@@ -710,14 +724,14 @@ div.middle_section div.left div.bottom a {
 
 }
 div.middle_section div.right {
+    width: 70%;
     display: flex;
     /* justify-content: space-between; */
-    gap: 40px;
     
 
 }
 div.middle_section div.right div.item {
-    width: 180px;
+    width: 25%;
     
 
 }
@@ -727,39 +741,47 @@ div.middle_section div.right div.item ul {
 
 }
 div.middle_section div.right div.item ul li {
+    width: 80%;
+
+    /* margin-right: 50px; */
 
 }
 div.middle_section div.right div.item ul li h5 {
+    margin-bottom: 20px;
     font-size: 20px;
-    padding: 20px 0 13px
 
 }
 div.middle_section div.right div.item ul li a {
+    /* width: 80%; */
     display: inline-block;
     font-size: 17px;
     color: #343538;
     text-decoration: none;
-    line-height: 40px;
+    margin-bottom: 20px;
+    /* line-height: 40px; */
 
 }
 
 div.slider {
-    width: 1224px;
-    display: flex;
+    width: 50%;
     /* justify-content: center; */
-    gap: 100px;
-    padding: 20px 80px 48px 39px;
-    margin-left: 40px;
     border-bottom: 1px solid #E8E9EB;
+    padding: 30px 50px 50px;
+
+}
+div.slider div.slider-container {
+    width: 100%;
+    
+    justify-content: space-between;
+    display: flex;
 
 }
 div.slider div.slider-left {
-    width: 368px;
+    
 
 }
 div.slider div.slider-left h3 {
     font-size: 20px;
-    padding-left: 50px;
     
 }
 div.slider div.slider-right {
@@ -781,32 +803,32 @@ div.slider div.slider-right input {
 /* footer middle end""" */
 
 div.bottom_section {
-    width: 1224px;
+    padding: 30px 50px;
     align-items: center;
 
 }
-div.bottom_section div.top {
+div.bottom-container {
+}
+div.bottom_section div.bottom-container div.top {
+    margin-bottom: 30px;
     display: flex;
     justify-content: space-between;
-    padding-left: 80px;
-
 
 }
-div.bottom_section div.top div.left {
+div.bottom_section div.bottom-container div.top div.left {
 
 }
-div.bottom_section div.top div.left h3 {
-    padding: 20px 0 13px 39px;
+div.bottom_section div.bottom-container div.top div.left h3 {
+    
     font-size: 20px;
 
 }
-div.bottom_section div.top div.middle {
+div.bottom_section div.bottom-container div.top div.middle {
     display: flex;
-    gap: 30px;
 
 }
 div.bottom_section div.top div.middle h3 {
-    padding: 20px 0 13px 39px;
+    
     font-size: 20px;
 
 }
@@ -817,14 +839,13 @@ div.bottom_section div.top div.right div.icons {
 
 }
 div.bottom_section div.top div.right div.icons ul {
-    padding: 20px 0 13px 39px;
     display: flex;
-    gap: 20px;
     list-style-type: none;
 
 
 }
 div.bottom_section div.top div.right div.icons ul li {
+    margin-right: 15px;
    
 
 }
@@ -841,8 +862,10 @@ div.bottom_section div.bottom {
 
 }
 div.bottom_section div.bottom p {
-    padding-left: 120px;
     font-size: 14px;
+    width: 97%;
+    color: #72767E;
+    
 
 }
 div.bottom_section div.bottom p a {
@@ -851,7 +874,69 @@ div.bottom_section div.bottom p a {
     font-weight: bold;
     color: #636363;
 }
-@media all and (max-width)
+
+@media all and (max-width :1280px) {
+    section.wrapper {
+        width: 80%;
+    }
+   
+}
+@media all and (max-width :1028px) {
+    header div.container div.middle {
+        display: none;
+    }
+    header div.container div.right {
+        width: 100%;
+    }
+    section#main {
+        padding-left: 0;
+    }
+    section#main div.groceries div.right {
+        width: 100%;
+    }
+}
+@media all and (max-width :980px) {
+    section#store section.wrapper div.markets div.bottom ul li {
+        width: 45%;
+    }
+    section#main div.groceries div.right {
+        display: none;
+    }
+    section#main div.groceries div.left {
+        width: 100%;
+    }
+    section#main div.groceries div.left div.content {
+        padding-top: 30px;
+    }
+
+}
+
+@media all and (max-width :842px) {
+    section#store section.wrapper div.markets div.top h2 {
+        font-size: 28px;
+    }
+    
+
+}
+
+    
+    
+
+@media all and (max-width :768px) {
+    section#store section.wrapper div.markets div.bottom ul li {
+        width: 100%;
+    }
+
+}
+@media all and (max-width :640px) {
+    section#store section.wrapper div.markets div.bottom ul li {
+        width: 100%;
+    }
+    section.wrapper {
+        width: 85%;
+    }
+}
+
 
 
 
