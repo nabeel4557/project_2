@@ -1,0 +1,148 @@
+@media all and (max-width :1280px) {
+    section.wrapper {
+        width: 80%;
+    }
+   
+}
+@media all and (max-width :1028px) {
+    header div.container div.middle {
+        display: none;
+    }
+    header div.container div.right {
+        width: 100%;
+    }
+    section#main {
+        padding-left: 0;
+    }
+    section#main div.groceries div.right {
+        width: 100%;
+    }
+}
+@media all and (max-width :980px) {
+    section#store section.wrapper div.markets div.bottom ul li {
+        width: 45%;
+    }
+    section#main div.groceries div.right {
+        display: none;
+    }
+    section#main div.groceries div.left {
+        width: 100%;
+    }
+    section#main div.groceries div.left div.content {
+        padding-top: 30px;
+    }
+    section#qr_code section.wrapper {
+        width: 95%;
+    }
+    section#qr_code section.wrapper div.scan div.middle h2 {
+        font-size: 25px;
+    }
+    section#online_grocery section.wrapper div.market ul {
+        display: block;
+        width: 100%;
+    }
+    section#online_grocery section.wrapper div.market ul li {
+        width: 100%;
+        margin-top: 7px;
+
+    }
+section#online_grocery section.wrapper div.market ul li h5 {
+
+
+}
+
+@media all and (max-width :842px) {
+    section#store section.wrapper div.markets div.top h2 {
+        font-size: 28px;
+    }
+    
+
+}
+
+    
+    
+
+@media all and (max-width :768px) {
+    section#store section.wrapper div.markets div.bottom ul li {
+        width: 100%;
+    }
+    section#qr_code section.wrapper div.scan div.middle h2 {
+        font-size: 20px;
+    }
+
+}
+@media all and (max-width :674px) {
+    section#store section.wrapper div.markets div.top h2 {
+        font-size: 24px;
+
+    }
+    section#qr_code section.wrapper div.scan div.middle h2 {
+        /* font-size: 10px; */
+    }
+
+}
+@media all and (max-width :640px) {
+    section#store section.wrapper div.markets div.bottom ul li {
+        width: 100%;
+    }
+    section.wrapper {
+        width: 85%;
+    }
+    section#qr_code section.wrapper div.scan div.left {
+        display: none;
+    }
+    section#qr_code section.wrapper div.scan div.middle {
+        width: 75%;
+    }
+    header div.container div.left div.imagecontainer div.image h1 a {
+        display: none;
+    }
+}
+@media all and (max-width :588px) {
+    header {
+        padding: 0px 10px;
+        
+    }
+    header div.container div.left {
+        width: 50%;
+    }
+    header div.container div.right {
+        width: 50%;
+    }
+    section#main div.groceries div.left span {
+        display: none;
+    }
+
+
+}
+@media all and (max-width :480px) {
+    section#main div.groceries div.left {
+        padding-left: 50px; 
+    }
+    section#main div.groceries div.left div.content h1 {
+        font-size: 33px;
+    }
+    section#main div.groceries div.left span {
+        margin-right: 0px;
+    }
+    section#main div.groceries div.left div.content h1 {
+        width: 300px;
+    }
+
+}
+@media all and (max-width :360px) {
+    section#qr_code section.wrapper div.scan div.middle {
+        display: flex;
+        font-size: 18px;
+    }
+    section#main {
+        padding-left: 0px;
+    }
+
+}
+@media all and (max-width :320px) {
+    section#main div.groceries div.left div.content h1 {
+        width: 250px;
+    }
+
+}

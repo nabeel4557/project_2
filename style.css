@@ -345,20 +345,24 @@ section#qr_code section.wrapper div.scan {
 
 }
 section#qr_code section.wrapper div.scan div.left {
+    width: 30%;
 
 }
 section#qr_code section.wrapper div.scan div.left img {
     display: inline-block;
-    width: 267px;
+    width: 100%;
     height: 100px;
 
 }
 section#qr_code section.wrapper div.scan div.middle {
+    width: 50%;
     padding-top: 30px;
     align-items: center;
 
 }
 section#qr_code section.wrapper div.scan div.middle h2 {
+    font-size: 30px;
+    width: 100%;
     font-weight: 700;
     
 
@@ -368,7 +372,7 @@ section#qr_code section.wrapper div.scan div.middle p {
 
 }
 section#qr_code section.wrapper div.scan div.right {
-
+    /* width: 20%; */
 }
 section#qr_code section.wrapper div.scan div.right img {
     display: inline-block;
@@ -873,68 +877,6 @@ div.bottom_section div.bottom p a {
     /* text-decoration: none; */
     font-weight: bold;
     color: #636363;
-}
-
-@media all and (max-width :1280px) {
-    section.wrapper {
-        width: 80%;
-    }
-   
-}
-@media all and (max-width :1028px) {
-    header div.container div.middle {
-        display: none;
-    }
-    header div.container div.right {
-        width: 100%;
-    }
-    section#main {
-        padding-left: 0;
-    }
-    section#main div.groceries div.right {
-        width: 100%;
-    }
-}
-@media all and (max-width :980px) {
-    section#store section.wrapper div.markets div.bottom ul li {
-        width: 45%;
-    }
-    section#main div.groceries div.right {
-        display: none;
-    }
-    section#main div.groceries div.left {
-        width: 100%;
-    }
-    section#main div.groceries div.left div.content {
-        padding-top: 30px;
-    }
-
-}
-
-@media all and (max-width :842px) {
-    section#store section.wrapper div.markets div.top h2 {
-        font-size: 28px;
-    }
-    
-
-}
-
-    
-    
-
-@media all and (max-width :768px) {
-    section#store section.wrapper div.markets div.bottom ul li {
-        width: 100%;
-    }
-
-}
-@media all and (max-width :640px) {
-    section#store section.wrapper div.markets div.bottom ul li {
-        width: 100%;
-    }
-    section.wrapper {
-        width: 85%;
-    }
 }
 
 
