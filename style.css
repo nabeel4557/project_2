@@ -7,8 +7,7 @@ header {
     width: 100%;
     height: 80px;
     padding: 0px 30px;  
-    /* position: fixed;  */
-    /* background-color: #fff; */
+    background-color: #fff;
 
 }
 header div.container {
@@ -109,6 +108,7 @@ header div.container div.right {
     width: 20%;
     font-size: 18px;
     align-items: center;
+    margin-left: 60px;
 
 }
 header div.container div.right ul {
@@ -412,6 +412,7 @@ section#order_delivery section.wrapper div.delivery div.bottom {
 }
 section#order_delivery section.wrapper div.delivery div.bottom ul {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     list-style-type: none;
 
@@ -492,9 +493,9 @@ section#online_grocery section.wrapper div.market div.image img {
 }
 section#online_grocery section.wrapper div.market ul {
     display: flex;
+    /* column-gap: 20px; */
     justify-content: space-between;
     list-style-type: none;
-    height: 236px;
     width: 100%;
 
 }
@@ -508,11 +509,11 @@ section#online_grocery section.wrapper div.market ul li {
 section#online_grocery section.wrapper div.market ul li h5 {
     font-size: 35px;
     font-weight: 600;
-
+    margin-bottom: 18px;
 }
 section#online_grocery section.wrapper div.market ul li p {
     color: #343538;
-    font-size: 27px;
+    font-size: 26px;
     line-height: 28px;
     font-weight: 500;
 
@@ -522,7 +523,7 @@ section#online_grocery section.wrapper div.market ul li p {
 
 
 section#questions {
-    max-width: 65%;
+    width: 95%;
     margin: 0 auto;
     padding: 32px 32px 60px;
 
@@ -572,8 +573,6 @@ footer{
 footer div.top_section {
     display: flex;
     padding: 30px 50px;
-    /* justify-content: center; */
-    /* gap: 100px; */
     border-bottom: 1px solid #E8E9EB;
     border-top: 1px solid #E8E9EB;
 
